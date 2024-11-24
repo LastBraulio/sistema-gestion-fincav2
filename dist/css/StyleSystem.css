@@ -1,0 +1,98 @@
+body{
+	background-color:#f4fdf4;
+	color: green;
+}
+a:hover{
+	text-decoration: none;
+	color: green;
+}
+.text-tab{
+	color: #57ba45;
+}
+a{
+	text-decoration: none;
+	color: green;
+}
+#text-tab{
+	color: #57ba45;
+}
+/*para nav pills*/
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color:white;
+    background-color:#57ba45;
+    }
+.nav-pills > li > a {
+	color:#57ba45; 
+}
+/*para nav-tabs*/
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color:white;
+    background-color:#57ba45;
+    }
+.nav-tabs > li > a {
+	color:#57ba45; 
+}
+.dropdown-toggle > h6{
+	font-size: 0.75em;
+}
+#nav > ul,li{
+	font-size: 0.85em;
+}
+/*para modificar el menu*/
+.navbar-inverse { background-color: #237A09}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #13D113}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #0D910D}
+.dropdown-menu { background-color: #FFFFFF}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #4FCA6C}
+.navbar-inverse { background-image: none; }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
+.navbar-inverse { border-color: #080808}
+.navbar-inverse .navbar-brand { color: #FFFFFF}
+.navbar-inverse .navbar-brand:hover { color: #13D113}
+.navbar-inverse .navbar-nav>li>a { color: #FFFFFF}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF}
+.dropdown-menu>li>a { color: #237A09}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
+/* aki centrar mis textos responsible*/
+.navbar a:focus {
+    outline: 0;
+}
+
+.navbar .navbar-nav {
+    letter-spacing: 1px;
+    
+}
+
+.navbar .navbar-nav li a:focus {
+    outline: 0;
+}
+
+.navbar-default,
+.navbar-inverse {
+    border: 0;
+}
+#colormenu{
+	background-color: #237A09;
+	
+}
+#letra5{
+	font-size: 2em;
+}
+.siq{
+	font-size: 3em;
+
+}
+.siq_user{
+	/*background-color: green;*/
+	font-size: 7em;
+	margin-top: 5%;
+	margin-left: 15%;
+	padding: 10%;
+	border-radius: 0.5em;
+}
